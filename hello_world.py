@@ -51,4 +51,4 @@ if __name__ == "__main__":
 
     # YYYY-mm-dd H:M:S
     dt_string = now.strftime("%Y-%m-%d %H:%M:%S")
-    app.run(port=8080,debug=True)
+    app.run(port=8080,debug=False)
